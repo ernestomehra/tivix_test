@@ -1,0 +1,23 @@
+Bug 1, P2
+Issue Summary: Page break occurs in a special sequence of Search procedure.
+Steps: 
+1. Click on 'blue' Search button without filling in the dates
+2. Click on the top left 'Search' button and then the page breaks.
+
+Bug 2, P1
+Issue Summary: Page Breaks on 2 consecutive blue 'Search' button clicks without passing date information.
+Steps:
+1. Click on blue search button twice without entering date infromation.
+
+Bug 2, 
+Issue Summary:
+Steps:
+
+Bug 2, 
+Issue Summary:
+Steps:
+
+Bug 2, P3
+Issue Summary: The message prompt is unclear if the 
+Steps:
+
