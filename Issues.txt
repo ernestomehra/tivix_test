@@ -4,20 +4,61 @@ Steps:
 1. Click on 'blue' Search button without filling in the dates
 2. Click on the top left 'Search' button and then the page breaks.
 
+Actual Outcome: Page break.
+
 Bug 2, P1
 Issue Summary: Page Breaks on 2 consecutive blue 'Search' button clicks without passing date information.
 Steps:
 1. Click on blue search button twice without entering date infromation.
 
-Bug 2, 
-Issue Summary:
-Steps:
+Actual Outcome: Page break.
 
-Bug 2, 
-Issue Summary:
+Bug 3, P1 
+Issue Summary: Model filter is not working.
 Steps:
+1. Enter Pickup and Dropoff dates.
+2. Enter model as Suzuki Swift.
+3. Click on Search
 
-Bug 2, P3
-Issue Summary: The message prompt is unclear if the 
+Actual Outcome: All other models in addition to Suzuki swift are populated as well.
+
+Bug 4, P2
+Issue Summary: Pick up and Drop Off dates can be added as past/future dates.
 Steps:
+1. Enter Model, pick up date and dropoff dates in the past.
+2. Click on Search
+
+Actual Outcome: The search actually brings up results for past dates. This is not handled properly
+
+Bug 6, P1
+Issue Summary: User can enter an email address as simple as <'@'> , there are no proper checks on validating the email address 
+Steps:
+1. Search for rental cars.
+2. Click on Rent it
+3. Confirm and clik on Rent It
+4. Enter User Details. Enter @ in the email id field.
+5. Click Submit.
+
+Actual Outcome: Takes email Id as @. 
+
+
+Bug 7, P1
+Issue Summary: City/Country Filter not outputting relevant results.
+Steps:
+1. Set country/city filter to France, Berlin
+2. Search after entering valid date range.
+
+Actual Outcome: Search results returning Germany and Berlin in the Country and City values for the results.
+
+Bug 8, P1
+Issue Summary: A success message is not returned instead the page is broken when user details are submitted.
+1. Search for rental cars.
+2. Click on Rent it
+3. Confirm and clik on Rent It
+4. Enter User Details.
+5. Click Submit.
+
+Actual Outcome: Page break.
+
+
 
