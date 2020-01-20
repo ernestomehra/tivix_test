@@ -23,4 +23,4 @@ if webelement:
 else:
     print("Test Failed")
 
-time.sleep(10)
+
