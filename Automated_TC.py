@@ -1,7 +1,6 @@
 #Simple test to check if the search returns results.
 
 from selenium import webdriver
-import time
 import datetime
 
 driver = webdriver.Chrome('/Users/karan.mehra/PycharmProjects/Testing/chromedriver/chromedriver')
