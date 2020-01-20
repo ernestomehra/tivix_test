@@ -1,0 +1,37 @@
+Test Case 1: 
+
+Check if the search returns result for the parameters fed in the form. 
+
+Steps:
+1. Select <Model>, <Pickup and DropOff dates>, City and Country
+2. Click on search button.
+3. Check that the following details are returned:
+ -- Company, Model, License Plate, Price, Price Per Day and a Rent option.
+ 
+Test Case 2: 
+
+Check if a user is re-directed to the user detail form when clicked on 'Rent' button
+
+Pre-Requisite: Execute TC1
+
+Steps:
+1. Click on rent button on any of the returned car models.
+2. Check the confirmation screen.
+3. Click on Rent button again.
+4. See if the user is re-directed to the User detail form.
+5. Enter details and click on submit
+6. Check if a success message is returned.
+
+
+Test Case 3: 
+
+Check mandatory date field validations on the Search form 
+
+Steps: 
+1. Click on Search button, without entering date fields.
+2. Check that a validation appears prompting user to enter valid date details.
+3. Enter pickup date, leave dropoff blank.
+4. Click on Search - valid prompt for dropoff date.
+5. Enter Dropoff date, leave pickup date.
+6. Click on Search button.
+7. Valid prompt for pickup date being blank/ invalid. 
